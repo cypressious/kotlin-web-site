@@ -157,7 +157,7 @@ buildscript {
   repositories {
     mavenCentral()
     maven {
-      url 'http://oss.sonatype.org/content/repositories/snapshots'
+      url 'https://oss.sonatype.org/content/repositories/snapshots'
     }
   }
   dependencies {
@@ -170,7 +170,7 @@ apply plugin: "kotlin" // or apply plugin: "kotlin2js" if targeting JavaScript
 repositories {
   mavenCentral()
   maven {
-    url 'http://oss.sonatype.org/content/repositories/snapshots'
+    url 'https://oss.sonatype.org/content/repositories/snapshots'
   }
 }
 
